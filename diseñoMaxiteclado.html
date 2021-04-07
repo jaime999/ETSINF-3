@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang='es-es'>
+<head>
+  <meta name='description' content='Laboratorio 2 de DEW, curso 2017/18' />
+  <meta name='author' content='Ramon Garcia' />
+  <meta name='revised' content='04/04/2018' />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat' />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Fondamento' />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lobster' />
+  <style>
+   .banda {clear:left; background-color:bisque; text-align:center;}
+   .mini  {font-size:0.8em;}
+   .medio {font-size:1.2em;}
+   .maxi  {font-size:1.6em;}
+   .r    {color:#FF0000;}
+   .g    {color:#00FF00;}
+   .b    {color:#0000FF;}
+   .rg   {color:#FFFF00;}
+   .rb   {color:#FF00FF;}
+   .gb   {color:#00FFFF;}
+   .rgb  {color:#FFFFFF;}
+   .f1  {font-family:'Montserrat', cursive;}
+   .f2  {font-family:'Fondamento', cursive;}
+   .f3  {font-family:'Lobster', cursive;}
+  </style>
+  <title>Teclado avanzado</title>
+</head>
+  <body style='background-color:silver;'>
+
+<div class='banda'><h1>Teclado avanzado</h1></div>
+
+<form action='maxiteclado' method='post'>
+
+<div style='float:left;'>
+  <table style='border:none;'>
+    <tr><td><input type='submit' name='tecla' value='1' /></td><td><input type='submit' name='tecla' value='2' /></td><td><input type='submit' name='tecla' value='3' /></td><td><input type='submit' name='tecla' value='4' /></td><td><input type='submit' name='tecla' value='5' /></td><td><input type='submit' name='tecla' value='6' /></td><td><input type='submit' name='tecla' value='7' /></td><td><input type='submit' name='tecla' value='8' /></td><td><input type='submit' name='tecla' value='9' /></td><td><input type='submit' name='tecla' value='0' /></td><td><input type='submit' name='tecla' value='/' /></td></tr>
+    <tr><td><input type='submit' name='tecla' value='q' /></td><td><input type='submit' name='tecla' value='w' /></td><td><input type='submit' name='tecla' value='e' /></td><td><input type='submit' name='tecla' value='r' /></td><td><input type='submit' name='tecla' value='t' /></td><td><input type='submit' name='tecla' value='y' /></td><td><input type='submit' name='tecla' value='u' /></td><td><input type='submit' name='tecla' value='i' /></td><td><input type='submit' name='tecla' value='o' /></td><td><input type='submit' name='tecla' value='p' /></td><td><input type='submit' name='tecla' value='*' /></td></tr>
+    <tr><td><input type='submit' name='tecla' value='a' /></td><td><input type='submit' name='tecla' value='s' /></td><td><input type='submit' name='tecla' value='d' /></td><td><input type='submit' name='tecla' value='f' /></td><td><input type='submit' name='tecla' value='g' /></td><td><input type='submit' name='tecla' value='h' /></td><td><input type='submit' name='tecla' value='j' /></td><td><input type='submit' name='tecla' value='k' /></td><td><input type='submit' name='tecla' value='l' /></td><td><input type='submit' name='tecla' value='&ntilde;' /></td></tr>
+    <tr><td><input type='submit' name='tecla' value='z' /></td><td><input type='submit' name='tecla' value='x' /></td><td><input type='submit' name='tecla' value='c' /></td><td><input type='submit' name='tecla' value='v' /></td><td><input type='submit' name='tecla' value='b' /></td><td><input type='submit' name='tecla' value='n' /></td><td><input type='submit' name='tecla' value='m' /></td><td><input type='submit' name='tecla' value=',' /></td><td><input type='submit' name='tecla' value='.' /></td><td><input type='submit' name='tecla' value='-' /></td></tr>
+  </table>
+  <input type='submit' name='tecla' value='Espacio' />
+</div>
+<div style='float:right;'>
+  <input type='checkbox' name='color' value='r' /><span class='r'>r</span>
+  <input type='checkbox' name='color' value='g' /><span class='g'>g</span>
+  <input type='checkbox' name='color' value='b' /><span class='b'>b</span>
+  <p>
+    <button type='submit' name='font' value='f1' ><span class='f1'>Montserrat</span></button>
+    <button type='submit' name='font' value='f2' ><span class='f2'>Fondamento</span></button>
+    <button type='submit' name='font' value='f3' ><span class='f3'>Lobster</span></button>
+  </p>
+
+  <p>
+    <button type='submit' name='size' value='mini' ><span class='mini'>mini</span></button>
+    <button type='submit' name='size' value='medio' ><span class='medio'>medio</span></button>
+    <button type='submit' name='size' value='maxi' ><span class='maxi'>maxi</span></button>
+  </p>
+</div>
+</form>
+<div class='banda'>
+  <p>Comenzamos ...</p>
+  <p>Ve pulsando ...</p></div>
+</body>
+</html>
