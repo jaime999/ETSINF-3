@@ -1,0 +1,54 @@
+<style>
+p      { font-family: Fondamento, cursive;}
+p.nota { color:white; background:black;}
+ul.li  { color:white; background:red;
+         font-family: Fondamento, cursive;}
+ol.li  { color:white; background:blue; font-family:Fondamento, cursive;}
+dt     { color:white; background:blue; font-size:16px;}
+td     { color:darkred; background:white; font-family:Fondamento, cursive;}
+table  { align:center;}
+body   { background-color:#cfdfef;
+         font-family: Fondamento, cursive;
+         color:darkblue;
+         margin-left:8px;}
+
+h3     { color:darkred;
+         margin-top:8px;
+         font-size:24px; 
+         font-weight:bold;
+         font-family: Fondamento, cursive;
+         text-shadow:4px 4px 4px #aaa;
+         font-variant:small-caps;
+         font-family:Fondamento, cursive;}
+
+h2     { color:darkgreen; 
+         margin-top:8px;
+         font-size:30px; 
+         font-weight:bold;
+         text-shadow:4px 4px 4px #aaa;
+         font-variant:small-caps;
+         font-family:Fondamento, cursive;}
+
+h1     { color:darkblue; 
+         margin-top:10px;
+         font-size:36px; 
+         font-weight:bold;
+         font-family: Fondamento, cursive;
+         text-shadow:4px 4px 4px #aaa;
+         font-variant:small-caps;
+         font-family:Fondamento, cursive;}
+
+I      { font-weight:bold;
+         color:azure;}
+
+a:link { font-size:18px; 
+         text-decoration:none;
+         color:green;
+         font-weight:bold;
+         font-family:Fondamento, cursive;}
+a:visited { font-size:12px; 
+         text-decoration:none;
+         color:#AAAAAA;
+         font-family:Fondamento, cursive;}
+
+</syle>
